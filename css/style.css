@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+img {
+  min-height: 150px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 22%;
+}
+
+#gallery > li {
+  list-style-type: none;
+  flex-basis: 30%;
+}
